@@ -62,7 +62,6 @@ header{
 	width: 100%;
 	padding:10px;
 	margin-left: -20px;
-	color:white;
 }
 aside{
 	background-color: #424A5D;
@@ -75,7 +74,7 @@ aside{
 }
 .text-center{
 	margin-top: 0;
-	padding-right: 50px;
+	padding-right: 40px;
 	color:#D0D0D0;
 
 }
