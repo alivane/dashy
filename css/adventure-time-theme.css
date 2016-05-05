@@ -1,0 +1,67 @@
+/*No tocar este codigo*/ 
+.sidebar-closed > #sidebar > ul {
+    display: none;
+}
+
+.sidebar-closed #main-content {
+    margin-left: 0px;
+}
+
+.sidebar-closed #sidebar {
+    margin-left: -180px;
+}
+
+#container{
+	width: 100%;
+}
+header{
+	background-color: #424A5D;
+	width: 100%;
+	color:white;
+	position: fixed;
+	height: 60px;
+	top:0;
+	left: 0;
+	right: 0;
+	padding: 10px;
+}
+.text-center{
+	text-align: center;
+}
+.sidebar-toggle-box{
+	display: inline-block;
+}
+.top-menu{
+	display: inline-block;
+	float:right;
+}
+.logo{
+	color:white;
+	text-decoration: none;	
+}
+.logout{
+	color:white;
+	width:70px;
+	height: 40px;
+	background-color: #9C4C9D;
+	padding: 10px;
+	text-decoration: none;
+	border-radius:5px;
+}
+.top-menu ul li{
+	display: inline-block;
+}
+aside{
+	background-color: red;
+	position: fixed;
+	top:70px;
+	left: 0;
+	height: 100%;
+	color:white;
+}
+.text-center{
+	margin-top: 0;
+}
+#main-content{
+	margin-top: 50px;
+}
