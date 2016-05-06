@@ -77,11 +77,34 @@ ul, ol {
 	display:block;
 	margin-top: 20px;
 }
+.sub-menu a{
+	color:#C3BDC4;
+}
+.sub-menu1 a{
+	color: #C3BDC4;
+}
+.sub-menu:hover a{
+	color:white;
+}
+.sub-menu1:hover a{
+	color:white;
+}
+.sub-menu1{
+	display:block;
+	margin-top: 20px;
+}
+.sub-menu1:hover{
+	background-color: #FC45DA;
+    width: 100%;
+	padding:10px;
+	margin-left: -20px;
+}
 .sub-menu:hover{
 	background-color:  #9C4C9D;
 	width: 100%;
 	padding:10px;
 	margin-left: -20px;
+	color:white;
 }
 aside{
 	background-color: #424A5D;
@@ -95,21 +118,17 @@ aside{
 .text-center{
 	margin-top: 0;
 	padding-right: 40px;
-	color:#D0D0D0;
+	color:white;
 
 }
 #main-content{
 	padding:80px 20px ;
 }
-i,span{
-	color:#93969C;
-}
+
 a:hover{
 	text-decoration: none;
 }
-i:hover,span:hover{
-	color:white;
-}
+
 .wrapper{
 	width: 100%;
 	padding-left: 1%;
@@ -117,6 +136,8 @@ i:hover,span:hover{
 .box1 span {
 	font-size: 40px;
 	text-align: center;
+	color:grey;
+	margin-top:30px;
 }
 h3{
 	color:grey;
@@ -135,7 +156,7 @@ h3{
 
 }
 .box0:hover{
-	box-shadow: 0px 1px 0px #999;
+	box-shadow: 0px 0px 0px #999;
 }
 .box0 p{
 	display: none;
@@ -229,4 +250,18 @@ h1{
 .registration{
 	text-align:center;
 	padding: 20px;
+}
+.visible-xs {
+    display: inline-block !important;
+}
+.bg-theme{
+	margin-bottom:45px;
+	color:#96CFFC;
+}
+.thumb{
+	float:left;
+	margin-right:10px;
+}
+#main-content{
+	margin-left: 210px;
 }
