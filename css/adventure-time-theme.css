@@ -53,6 +53,10 @@ p{
 	float:right;
 	margin-top:-5px;
 }
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
 .logo{
 	color:white;
 	text-decoration: none;	
@@ -178,4 +182,20 @@ h1{
 	padding:10px;
 	margin-top: 20px;
 
+}
+.mt{
+	background-color: white;
+	box-shadow: 2px 2px 5px #999;
+	color:grey;
+	padding:10px;
+	margin-top: 20px;
+
+}
+.form-horizontal .control-label{
+	text-align: left;
+}
+.style-form .form-group{
+	box-shadow: 0px 1px 0px #F2F2F2;
+	padding-top:5px;
+	padding-bottom:15px;
 }
