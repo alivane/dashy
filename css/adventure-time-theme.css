@@ -210,3 +210,23 @@ h1{
 	padding-left: 30px;
 	padding-left: 30px;
 }
+.form-login{
+	background-color: white;
+	width: 50%;
+	margin:auto;
+}
+.form-login-heading{
+	background-color:#57E3EB;
+	text-align: center;
+	color:white;
+	padding: 20px;
+	font-size: 20px;
+}
+.login-wrap{
+	width: 90%;
+	margin:auto;
+}
+.registration{
+	text-align:center;
+	padding: 20px;
+}
